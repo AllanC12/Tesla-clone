@@ -47,8 +47,7 @@ function openMenu(){
 
    menu_text.addEventListener('click',(e)=>{
       e.preventDefault()
-      console.log(menu_text)
-       if(window.innerWidth >= 1000){
+        if(window.innerWidth >= 1000){
          for(let i = 0; i < 6; i++){
             links[i].style.display = 'none'
          }
